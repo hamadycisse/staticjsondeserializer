@@ -11,7 +11,7 @@ public class RunGenerator {
     public static void main(final String... args) {
 
         final Generator generator = new Generator();
-        generator.generate(new SerializationSupportInfo(new DtosPackageList(Arrays.asList("")),
-                "ca.appostrophe.models", "$type"));
+        generator.generate(new SerializationSupportInfo(new DtosPackageList(Arrays.asList("ca.appostrophe.models")),
+                "ca.appostrophe.serialization", "$type"));
     }
 }
