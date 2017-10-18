@@ -1,0 +1,2 @@
+include ':mobile', ':wear', ':lib-generator', ':lib-utils', ':generator', ':shared-app',
+        ':models', ':serialization'
